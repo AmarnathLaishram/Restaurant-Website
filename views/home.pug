@@ -1,0 +1,51 @@
+extends base.pug 
+
+block scripts
+  script 
+      include ../static/index.js
+
+block style 
+  style 
+      include ../static/style.css
+
+block content 
+  section#bodySection 
+    div.one  Health is wealth 
+    div.two  Dine like a lion...  
+    div.three Good Food Good Life
+    div.four Enjoy our Dishes...
+
+  section#cardSection  
+    div.card#cardOne  
+      h2 Our Mission
+      p  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti minus aut eos fuga id, similique repellat facilis sunt? Libero soluta enim ipsam? Libero quos eveniet labore similique! Nihil, tempore odit? Praesentium!  
+        
+    div.card#cardTwo 
+      h2 Basic Stuff
+      p  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti minus aut eos fuga id, similique repellat facilis sunt? Libero soluta enim ipsam? Libero quos eveniet labore similique! Nihil, tempore odit? Praesentium!  
+            
+    div.card#cardThree  
+      h2 Our Customers
+      p  Lorem ipsum, dolor sit amet consectet  adipisicing elit. Deleniti minus aut eos fuga id, similique repellat facilis sunt? Libero soluta enim ipsam? Libero quos eveniet labore similique! Nihil, tempore odit? Praesentium!  
+
+  section#servicesSection 
+    h1 SPECIAL SERVICES OF OUR KITCHEN 
+    div.services#deliveryCard 
+      h2 Online Delivery 
+      div#deliveryImg
+         button.btn Check Out
+      p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maiores quis alias ex veritatis. Voluptatem voluptatum reprehenderit ipsum! Numquam commodi iusto tenetur? Eveniet, error praesentium! Reiciendis aperiam magnam quia quas laudantium. 
+
+    div.services#customizeCard 
+      h2 Customize Food 
+      div#customizeImg
+         button.btn Check Out
+      p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maiores quis alias ex veritatis. Voluptatem voluptatum reprehenderit ipsum! Numquam commodi iusto tenetur? Eveniet, error praesentium! Reiciendis aperiam magnam quia quas laudantium. 
+
+    div.services#complimentaryCard 
+      h2 Complimentary 
+      div#complimentaryImg
+         button.btn Check Out
+      p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maiores quis alias ex veritatis. Voluptatem voluptatum reprehenderit ipsum! Numquam commodi iusto tenetur? Eveniet, error praesentium! Reiciendis aperiam magnam quia quas laudantium.     
+
+                

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+#restaurantSection h1{   
+    font-family: 'Limelight', cursive;
+    padding-left:12px;
+    color: chocolate;
+    font-size: 32px;
+}
+#restaurantSection p {
+    font-family: 'Amatic SC', cursive;
+    padding-left:12px;
+    font-weight: bold; 
+    font-size: 24px;
+}
+.firstRestaurant{
+    background-color:rgb(204, 201, 201) ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+div.firstAddress{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+#firstLocation{
+    margin-right: 60px;
+    background: url('../static/restaurant1.jpg')no-repeat,center,center/cover;
+    width: 300px;
+    height: 500px;
+}
+#firstLocation .btnOne{
+    display  : block; 
+    margin: 180px auto;
+    border-radius: 13px; 
+}
+#firstLocation .btnOne a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Staatliches', cursive;   
+
+}
+#firstLocation:hover{
+    margin-right: 60px;
+    background: url('../static/body.jpg')no-repeat,center,center/cover;
+    width: 300px;
+    height: 500px;
+}
+.secondRestaurant{
+    margin-top: 12px;
+    background-color: rgb(214, 197, 197);
+    margin-left: 120px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#secondLocation{
+    margin-left: 60px ;
+    background: url('../static/restaurant2.jpg')no-repeat,center,center/cover;
+    width: 300px;
+    height: 500px;
+}
+#secondLocation .btnOne{
+    display  : block; 
+    margin: 180px auto;
+    border-radius: 13px; 
+}
+#secondLocation .btnOne a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Staatliches', cursive;   
+
+}
+
+

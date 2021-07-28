@@ -1,0 +1,22 @@
+block scripts
+  script 
+      include ../static/index.js
+
+block style 
+  style 
+      include ../static/menustyle.css
+      include ../static/bookstyle.css
+block content 
+  section#bookingSection     
+    h1#heading Book Your Reservation 
+    div#bookingContainer
+         form(action="/book", method = "post", class = "myForm" )
+           input(type="text", class = "myInput", name = "name", id = "name",  placeholder = "Enter your name ") 
+           input(type = "number", class = "myInput", name = "phone", id = "phone", placeholder = "Enter your phone")
+           input(type = "email", class = "myInput", name = "email", id = "email", placeholder = "Enter your email")
+           input(type = "text", class = "myInput", name = "address", id = "text", placeholder = "Enter your address")
+           input(type = "number", class = "myInput", name = "timing", id = "text", placeholder = "Enter your booking time")
+           button.btnTwo  Order
+         img(src="../static/waiter.jpg", alt="error loading")  
+ 
+    

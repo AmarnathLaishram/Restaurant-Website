@@ -1,0 +1,45 @@
+extends base.pug 
+
+block scripts
+  script 
+      include ../static/index.js
+
+block style 
+  style 
+      include ../static/style.css
+      include ../static/restaurantstyle.css
+
+block content
+  section#restaurantSection 
+      h1 Chef's Word :
+      p  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis error repellendus illo, atque fugiat dignissimos magnam quis incidunt commodi eveniet consequatur, fugit velit blanditiis omnis molestiae ipsum mollitia, similique modi ut accusamus.
+      div.firstRestaurant  
+          div#firstLocation  
+             button.btnOne #[a(href = '/book') Book Your Reservation]
+
+          div.firstAddress 
+             div.first Mumbai Branch
+             div.second Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, magnam.
+
+      div.secondRestaurant
+          div.firstAddress 
+             div.first Delhi  Branch
+             div.second Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, magnam.    
+          div#secondLocation 
+             button.btnOne #[a(href = '/book') Book Your Reservation]
+
+
+      div.firstRestaurant  
+          div#firstLocation  
+              button.btnOne #[a(href = '/book') Book Your Reservation]
+          div.firstAddress 
+             div.first Hydrabad Branch
+             div.second Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, magnam.     
+               
+      div.secondRestaurant
+          div.firstAddress 
+             div.first  Guwahati  Branch
+             div.second Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, magnam.    
+          div#secondLocation  
+             button.btnOne #[a(href = '/book') Book Your Reservation]
+  

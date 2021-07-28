@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&family=Unica+One&display=swap');
+#topSection{
+    background-color: rgb(245, 240, 233);
+}
+#introLogo{
+    padding-right: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#introLogo img{
+    height:350px ;
+}
+#introHeading {
+    font-family: 'Staatliches', cursive;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.menuOne{
+    font-size:30px ;   
+}
+div.menuTwo{
+    font-size:30px ;   
+}
+#orderButton{
+    font-family: 'Staatliches', cursive;
+    margin-top: 16px;
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 6px;
+    width:150px;
+}
+#recipetwoSection{
+    color:black;   
+    height: 350px;
+    background-color: cornsilk;
+    padding-left: 4px; 
+
+}
+#recipetwoSection h1{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 32px;
+}
+
+#recipetwoSection p{
+    font-family: 'Gorditas', cursive;
+
+}
+#cardsTwo{
+    display: flex;
+    flex-direction: row;
+}
+div.vegCard{
+    cursor: pointer;
+    padding-top: 12px;
+    margin-left:12px ;
+    height: 250px;
+    width: 18%;
+    /* border: 2px solid black;   */
+   
+}
+div.vegCard h3{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}    
+div.vegCard h3:hover{
+    text-decoration: underline;
+    transform: scale(1.1,1.1);
+    color: gray;
+
+}    
+div.vegCard img{
+    width:199px;
+    height: 150px;
+    border-radius: 8px;
+}
+div.vegCard img:hover{
+    opacity: 0.8;
+    transform: scale(1.1,1.1);
+
+}
+#recipeoneSection{
+    color: white;
+    height: 350px;
+    background-color:rgb(41, 41, 99);
+    padding-left: 12px; 
+    padding-top: 4px;
+
+}
+#recipeoneSection h1{
+    
+    font-family: 'Six Caps', sans-serif;
+    font-family: 32px;
+
+}
+#recipeoneSection p{
+    font-family: 'Gorditas', cursive;
+}
+#cards{
+    display: flex;
+    flex-direction: row;
+}
+div.mostsoldCard{
+    cursor: pointer;
+    padding-top: 12px;
+    margin-left:12px ;
+    height: 250px;
+    width: 18%;
+    /* border: 2px solid black;   */
+   
+}
+div.mostsoldCard h3{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}    
+div.mostsoldCard h3:hover{
+    text-decoration: underline;
+    color: gray;
+    transform: scale(1.1,1.1);
+
+    
+}    
+div.mostsoldCard img{
+    width:199px;
+    height: 150px;
+    border-radius: 8px;
+}
+div.mostsoldCard img:hover{
+    opacity: 0.8;
+    transform: scale(1.1,1.1);
+}
+#chefSection{
+    height: 200px;
+    width: 100%;
+}
+#cardsThree{
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+div.chefCard h1{
+    font-family: 'Unica One', cursive;
+    text-align: center;
+    font-size: 34px;
+}
+div.chefCard img{
+    border-radius: 8px;
+    height: 200px;
+}
+div.chefCard h3{
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 28px;
+}

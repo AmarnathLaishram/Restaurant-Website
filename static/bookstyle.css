@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+#heading{
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+}
+#bookingcontainer{
+    display: flex;
+    height: 450px;
+    align-items: center;
+    background-color: rgb(223, 222, 219);
+}   
+#bookingContainer img{
+    margin-right:40px ;
+    width: 400px;
+    filter: invert(10%);
+}   
+form .myInput{
+    border-radius: 5px;
+    outline: none;
+    margin-left: 65px;
+    margin-top:8px;
+    width:80%;
+    height: 24px;
+    
+}
+form .btnTwo{
+    display: block;
+    margin: 12px auto;
+    padding: 2px 24px ;
+    border-radius: 5px;
+}
+
+
